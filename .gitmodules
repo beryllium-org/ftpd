@@ -4,3 +4,6 @@
 [submodule "submodules/CircuitPython_FTP_Server"]
 	path = submodules/CircuitPython_FTP_Server
 	url = https://github.com/beryllium-org/CircuitPython_FTP_Server
+[submodule "submodules/CircuitMPY"]
+	path = submodules/CircuitMPY
+	url = https://github.com/beryllium-org/CircuitMPY
