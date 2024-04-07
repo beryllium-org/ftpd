@@ -35,12 +35,12 @@ if not wifi.radio.connected:
 
 pool = SocketPool(wifi.radio)
 ftps = ftp(pool, str(wifi.radio.ipv4_address), verbose=True)
-print("Starting Ljinux ftp server..")
+print("Starting Beryllium OS ftp server..")
 try:
     ftps.serve_till_quit()
 except KeyboardInterrupt:
     pass
 finally:
     ftps.deinit()
-print("Reloading Ljinux..")
+print("Reloading Beryllium OS..")
 reload()
